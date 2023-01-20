@@ -1,15 +1,13 @@
 import { useState } from "react"
 import { useFetchData } from "./data/fetch"
-
-
+import {URL} from './data/client'
 const App = () => {
-  const { isLoading, data, error } = useFetchData(
-    "https://jsonplaceholder.typicode.com/posts"
-  )
-  console.log(data) // prints out data!
+  // const { isLoading, data, error } = useFetchData(URL)
+  // console.log(data) // prints out data!
   
   //interact with the genius api now
   //make required changes to the client.ts accordingly!`
+  // use unknown type for the data coming from the API
   return (
     <>
     <div>Hello from App!</div>
