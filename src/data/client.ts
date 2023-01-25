@@ -6,11 +6,4 @@ export const CLIENT_SECRET =
 export const CLIENT_ACCESS_TOKEN =
 "FchQg7Pm0JCC0aTz16Z6ZpQEUdl6y0LBj3Et4A2KAV4ta2pDyTDbWhKDYdclnUul"
 
-export const URL = 
-`
-    https://api.genius.com/oauth/authorize?
-    client_id=${CLIENT_ID}&
-    redirect_uri="www.google.com"&
-    scope="me"&
-    state=SOME_STATE_VALUE&
-    response_type="token"` 
+export const URL = `https://api.genius.com/oauth/authorize`
